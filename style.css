@@ -81,6 +81,12 @@ z-index: 15;
 }
 
 .clock .hour,
+.clock .minute,
+.clock .second{
+  position :absolute;
+}
+
+.clock .hour,
 .clock .hour .hr{
  width: 160px;
  height: 160px;
@@ -118,12 +124,12 @@ border-radius: 10px;
 }
 
 .clock .minute .min::before{
-  content '';
+  content:'';
   position: absolute;
   width: 4px;
   height: 90px;
   background: #39a2db;
-  z-index:11 ;
+  z-index: 11;
   border-radius: 8px;
 }
 
