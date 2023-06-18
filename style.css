@@ -51,7 +51,8 @@ body {
     to{
        transform: translateY(10px); 
     }
-    
+}  
+            /* Hocam burda susluyu kapatmayi unutmusunuz yukarda yazdim */
 .clock{
 width: 350px;
 height: 350px;
